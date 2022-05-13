@@ -1,11 +1,12 @@
 import React from 'react';
 
-export default function MainContent() {
+export default function ContactInfo() {
   return (
-    <div className="main-content-container">
+    <div className="contact-info-container">
       {/* <img src="http://placehold.it/200x200" alt="logo" /> */}
-      <h1>Jibberish</h1>
+      <h1>I am the contacts</h1>
     </div>
     
   );
 }
+
