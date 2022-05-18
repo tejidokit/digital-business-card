@@ -1,10 +1,10 @@
 import React from 'react';
 
-export default function ProfilePic() {
+export default function Footer() {
   return (
-    <div className="profile-pic-container">
+    <div className="footer-container">
       {/* <img src="http://placehold.it/200x200" alt="logo" /> */}
-      <h1>I am the pic</h1>
+      <h1>Footer</h1>
     </div>
     
   );

@@ -1,9 +1,11 @@
 import { useState } from 'react'
 import logo from './logo.svg'
 import './App.css'
-import MainContent from './MainContent'
-import ContactInfo from './ContactInfo'
-import ProfilePic from './ProfilePic'
+import MainContent from './Footer'
+import Info from './Info';
+import About from './About';
+import Interest from './Interest';
+import Footer from './Footer';
 
 
 function App() {
@@ -11,9 +13,10 @@ function App() {
 
   return (
     <div className="App"> 
-      <ProfilePic />  
-      <ContactInfo/> 
-      <MainContent/>
+      <Info/>
+      <About/>  
+      <Interest/> 
+      <Footer/>
     </div>
   )
 }
