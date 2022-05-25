@@ -1,9 +1,11 @@
+
+
 .App {
   text-align: center;
 
+  box-sizing: border-box;
   
-  
-  background-color: #28223F;
+  background-color: #e8e6ef;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -12,6 +14,7 @@
   min-height: 100vh;
   margin: 0;
 }
+
 
 
 
