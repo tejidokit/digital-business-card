@@ -1,11 +1,13 @@
 import React from 'react';
 import './info.css';
+import profilePic from '..//..//imgs//profilepic1.png';
+
 
 
 export default function Info() {
   return (
       <div className="info-container">
-        <img className="about-pic" src="/src/imgs/profilepic1.png" alt="profile-pic" />
+        <img className="about-pic" src={profilePic} alt="profile-pic"/>
         <h1 className="name">Kit Tejido</h1>
         <h5 className="job-title">Frontend Developer</h5>
         <h6 className="address">
